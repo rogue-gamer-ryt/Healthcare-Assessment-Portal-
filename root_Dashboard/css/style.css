@@ -1,0 +1,142 @@
+body {
+  font-family: "Open Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400;
+  background-image:url(../bg.jpg);
+ 
+}
+
+p, span, a, ul, li, button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.tile {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.tile .title {
+  margin-top: 0px;
+}
+.tile.purple, .tile.blue, .tile.red, .tile.orange, .tile.green {
+  color: #fff;
+}
+.tile.purple {
+  background: #5133ab;
+}
+.tile.purple:hover {
+  background: #3e2784;
+}
+.tile.red {
+  background: #ac193d;
+}
+.tile.red:hover {
+  background: #7f132d;
+}
+.tile.green {
+  background: #00a600;
+}
+.tile.green:hover {
+  background: #007300;
+}
+.tile.blue {
+  background: #2672ec;
+}
+.tile.blue:hover {
+  background: #125acd;
+}
+.tile.orange {
+  background: #dc572e;
+}
+.tile.orange:hover {
+  background: #b8431f;
+}
+
+.overlay.blue {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+}
+.tile:hover .overlay {
+  
+  height: 100%;
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.overlay.red {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ac193d;
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+}
+
+.overlay.purple {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #5133ab;
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+}
+.overlay.green {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #00a600;
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+}
+.overlay.orange {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #dc572e;
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+}
